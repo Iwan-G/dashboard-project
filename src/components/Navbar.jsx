@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <section className="nav">
       <div className="title">
-        <h4>Hi Iwan,</h4>
+        <h4>Hi Sir,</h4>
         <h1>
           Welcome to <span>MY TAXI DASHBOARD</span>
         </h1>
