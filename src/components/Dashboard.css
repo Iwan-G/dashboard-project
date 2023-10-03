@@ -1,0 +1,41 @@
+/* styles.css */
+
+.dashboard {
+    margin-left: 18vw;
+    padding: 2rem;
+    height: 100%;
+  }
+  
+  .dashboard .grid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .dashboard .grid .row__one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50%;
+    gap: 1rem;
+  }
+  
+  .dashboard .grid .row__two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 50%;
+  }
+  
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .dashboard {
+      margin-left: 0;
+    }
+  
+    .dashboard .grid .row__one,
+    .dashboard .grid .row__two {
+      grid-template-columns: 1fr;
+    }
+  }
+  

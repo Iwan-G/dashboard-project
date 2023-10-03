@@ -1,5 +1,6 @@
 import React from "react";
 import { BiSearch } from "react-icons/bi";
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
